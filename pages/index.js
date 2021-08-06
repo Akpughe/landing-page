@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import { SiXcode, SiFreecodecamp } from 'react-icons/si';
 import { AiFillCode } from 'react-icons/ai';
 import { MdAttachMoney } from 'react-icons/md';
+import Input from '../components/Input';
 
 export default function Home() {
   return (
@@ -106,33 +107,17 @@ export default function Home() {
         </div>
       </div>
       <div
-        className="flex justify-center pt-[50px] pb-20"
+        className="flex justify-center pt-[50px] pb-20 w-full"
         style={{ paddingTop: '50px' }}
       >
         <div
-          className="bg-[#FAFAFA] sm:w-1/2 w-full sm:rounded-3xl rounded-none sm:p-16 p-10"
+          className="flex flex-col sm:items-start items-center bg-[#FAFAFA] sm:w-1/2 w-full sm:rounded-3xl rounded-none sm:p-16 p-10"
           style={{ backgroundColor: '#FAFAFA' }}
         >
           <h1 className="text-2xl mb-2">Get updates! </h1>
           <span className="mb-2">Sign up for better opportunities</span>
-          <form action="">
-            <div className="sm:w-full w-[330px] h-14 mt-6">
-              <div className="bg-white flex h-14 w-full items-center border border-[#C4C4C4] rounded-t-xl rounded-b-xl ">
-                <input
-                  className="rounded-l-full w-full px-4  text-gray-700 leading-tight focus:outline-none"
-                  id="email"
-                  type="email"
-                  placeholder="Email address"
-                />
-
-                <div className="bg-blue-700 py-1 px-1 rounded-tr-xl rounded-br-xl">
-                  <button className="text-white rounded-full p-2 focus:outline-none w-12 h-12 flex items-center justify-center">
-                    {'->'}
-                  </button>
-                </div>
-              </div>
-            </div>
-          </form>
+         
+          <Input/>
         </div>
       </div>
     </div>
