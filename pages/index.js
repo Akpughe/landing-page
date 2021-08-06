@@ -40,8 +40,8 @@ export default function Home() {
         style={{ paddingTop: '100px' }}
       >
         <div
-          className="bg-[#FAFAFA] w-3/5 sm:rounded-3xl rounded-none p-16"
-          style={{ backgroundColor: '#FAFAFA', width: '720px' }}
+          className="bg-[#FAFAFA] sm:w-1/2 w-full sm:rounded-3xl rounded-none sm:p-16 p-10"
+          style={{ backgroundColor: '#FAFAFA' }}
         >
           <div className="">
             <h3 className="font-bold text-2xl tracking-wide leading-relaxed">
@@ -110,8 +110,8 @@ export default function Home() {
         style={{ paddingTop: '50px' }}
       >
         <div
-          className="bg-[#FAFAFA] w-[720px] sm:rounded-3xl rounded-none p-16"
-          style={{ backgroundColor: '#FAFAFA', width: '720px' }}
+          className="bg-[#FAFAFA] sm:w-1/2 w-full sm:rounded-3xl rounded-none sm:p-16 p-10"
+          style={{ backgroundColor: '#FAFAFA' }}
         >
           <h1 className="text-2xl mb-2">Get updates! </h1>
           <span className="mb-2">Sign up for better opportunities</span>
