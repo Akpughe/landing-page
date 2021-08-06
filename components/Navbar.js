@@ -7,8 +7,8 @@ const Navbar = () => {
   return (
     <div className="flex items-center h-32">
       <div
-        className="flex items-center justify-between m-auto sm:px-0 px-5"
-        style={{ width: '720px' }}
+        className="flex items-center justify-between m-auto sm:px-0 px-5 sm:w-3/6 w-full"
+        // style={{ width: '720px' }}
       >
         {/* 1 */}
         <div className="">

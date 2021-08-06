@@ -40,7 +40,7 @@ export default function Home() {
         style={{ paddingTop: '100px' }}
       >
         <div
-          className="bg-[#FAFAFA] w-[720px] sm:rounded-3xl rounded-none p-16"
+          className="bg-[#FAFAFA] w-3/5 sm:rounded-3xl rounded-none p-16"
           style={{ backgroundColor: '#FAFAFA', width: '720px' }}
         >
           <div className="">
