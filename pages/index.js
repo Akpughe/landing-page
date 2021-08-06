@@ -10,9 +10,9 @@ export default function Home() {
   return (
     <div className="h-screen">
       <Head>
-        <title>David Bootcamp</title>
-        <meta name="description" content="Become a web developer" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Learn To Code | BootCamp</title>
+        <meta name="description" content="Learn how to code | Become a web developer" />
+        <link rel="icon" href="/VSCode.ico" />
       </Head>
 
       <Navbar />
